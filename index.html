@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pastore Pizzaria</title>
+    <!--Pizza favicon-->
+    <link rel="icon" href="images/favicon-16x16.png">
     <!--Bootstrap CDN-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <!--Font awesome-->
@@ -18,30 +20,30 @@
 <body>
     <!--Navbar-->
     <header class="header">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Pastore</a>
+
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: black;">
+            <a class="navbar-brand" href="#" id="brand">Pastore</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
+                <ul class="navbar-nav mr-auto ">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="#" id="home">Home<span class="sr-only">(current)</span></a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Order</a>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#" id="order">Order</a>
                     </li>
-                    <li class="nav-item dropdown">
+                    <li class="nav-item active dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Menu
                   </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Small</a>
-                            <a class="dropdown-item" href="#">Medium</a>
-                            <a class="dropdown-item" href="#">Large</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">XL</a>
+                            <a class="dropdown-item" href="#" id="sm">Small</a>
+                            <a class="dropdown-item" href="#" id="md">Medium</a>
+                            <a class="dropdown-item" href="#" id="lg">Large</a>
+                            <a class="dropdown-item" href="#" id="xl">XL</a>
                         </div>
                     </li>
                     <li class="nav-item">
@@ -56,6 +58,8 @@
         </nav>
     </header>
 
+    <!--Welcome section-->
+    <img src="images/background.jpg" alt="img" class="pizza-img">
 
 
 
