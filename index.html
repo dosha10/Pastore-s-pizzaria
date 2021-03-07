@@ -79,7 +79,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div><br>
 
     <!--Order-->
     <div class="order">
@@ -117,9 +117,30 @@
                     <option value="capers">Capers for Ksh. 100</option>
                     <option value="sausage">Sausage for Ksh. 100</option>
                 </select>
-                </form>
+                    <label for="pizzas">Number of pizzas</label>
+                    <input type="number" class="form-control" id="number" placeholder="Number of pizzas" min="1" required>
+                </form><br>
+
+                <!--Checkout-->
+                <a href="#summary">
+                    <button type="submit" class="btn btn-success checkout" id="checkout">
+                        Checkout
+                    </button>
+                </a>
+
             </div>
+            <div class="col-sm-2"></div>
         </div>
+    </div><br><br>
+
+    <!--Tab-->
+    <div class="tab" id="sum-order">
+        <h1 class="text-center" id="summary">Order Summary</h1>
+        <h2 class="text-center summary">Your order is as follows</h2>
+        <ol id="list" class="text-center sum">
+
+        </ol>
+
     </div>
 
 
