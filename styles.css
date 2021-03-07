@@ -58,18 +58,21 @@
     
     .pizza1 {
         border-radius: 10px;
+        cursor: pointer;
         margin: 2px;
         width: 300px;
     }
     
     .pizza5 {
         border-radius: 10px;
+        cursor: pointer;
         margin: 2px;
         width: 300px;
     }
     
     .pizza4 {
         border-radius: 10px;
+        cursor: pointer;
         margin: 2px;
         width: 300px;
     }
