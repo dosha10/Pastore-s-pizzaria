@@ -66,17 +66,58 @@
             <div class="row text-center">
                 <div class="col-sm">
                     <img src="images/pizza1.jpg " alt="pizza " class="pizza1 ">
-                    <figcaption>Small <br> 300/=</figcaption>
+                    <figcaption>Small <br>Ksh. 400</figcaption>
                 </div>
                 <div class="col-sm">
                     <img src="images/pizza5.jpg " alt="pizza " class="pizza5 ">
-                    <figcaption>Medium <br> 800/=</figcaption>
+                    <figcaption>Medium <br>Ksh. 800</figcaption>
 
                 </div>
                 <div class="col-sm">
                     <img src="images/pizza4.jpg " alt="pizza " class="pizza4 ">
-                    <figcaption>Large <br> 1100/=</figcaption>
+                    <figcaption>Large <br>Ksh. 1200</figcaption>
                 </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Order-->
+    <div class="order">
+        <h1 class="text-center" id="make-order">Please make your order here</h1>
+        <div class="form-group row">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-8 order-overlay text-center">
+                <form class="col-sm-6 offset-sm-3 text-center">
+                    <label for="flavor">Choose your favorite flavor</label>
+                    <select class="custom-select custom-select-md mb-3" id="flavor" required>
+                        <option value="cheese">Cheese Pizza</option>
+                        <option value="pepperoni">Pepperoni Pizza</option>
+                        <option value="meat">Meat Pizza</option>
+                        <option value="margherita">Margherita Pizza</option>
+                        <option value="bbq">BBQ Pizza</option>
+                        <option value="hawaiian">Hawaiian Pizza</option>
+                    </select>
+                    <label for="size">Choose your preferred size</label>
+                    <select class="custom-select custom-select-md mb-3" id="size" required>
+                        <option value="small">Small</option>
+                        <option value="medium">Medium</option>
+                        <option value="large">Large</option>
+                    </select>
+                    <label for="crust">Choose your preferred crust</label>
+                    <select class="custom-select custom-select-md mb-3" id="crust" required>
+                    <option value="neapolitan">Neapolitan Crust for Ksh. 100</option>
+                    <option value="sicilian">Sicilian Crust for Ksh. 150</option>
+                    <option value="thin">Thin Crust for Ksh. 200</option>
+                    <option value="flatbread">Flatbread Crust for Ksh. 250</option>
+                </select>
+                    <label for="toppings">Choose your favorite toppings</label>
+                    <select class="custom-select custom-select-md mb-3" id="toppings" required>
+                    <option value="broccoli">Broccoli for Ksh. 100</option>
+                    <option value="olives">Olives for Ksh. 100</option>
+                    <option value="capers">Capers for Ksh. 100</option>
+                    <option value="sausage">Sausage for Ksh. 100</option>
+                </select>
+                </form>
             </div>
         </div>
     </div>
