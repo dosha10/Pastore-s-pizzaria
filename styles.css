@@ -1,51 +1,63 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
-html,
-body {
-    box-sizing: border-box;
-    font-family: 'Noto Sans JP', sans-serif;
-}
-
-#brand {
-    font-style: inherit;
-    font-size: 40px;
-}
-
-#home:hover {
-    color: #228B22;
-}
-
-#order:hover {
-    color: #228B22;
-}
-
-#navbarDropdown:hover {
-    color: #228B22;
-}
-
-#sm:hover {
-    color: #228B22;
-}
-
-#md:hover {
-    color: #228B22;
-}
-
-#lg:hover {
-    color: #228B22;
-}
-
-#xl:hover {
-    color: #228B22;
-}
-
-.pizza-img {
-    width: 100%;
-}
-
-.header1 {
-    text-align: center;
-}
-
-.para1 {
-    text-align: center;
-}
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
+    html,
+    body {
+        box-sizing: border-box;
+        font-family: 'Noto Sans JP', sans-serif;
+    }
+    
+    #brand {
+        font-style: inherit;
+        font-size: 40px;
+    }
+    
+    #home:hover {
+        color: #228B22;
+    }
+    
+    #order:hover {
+        color: #228B22;
+    }
+    
+    #navbarDropdown:hover {
+        color: #228B22;
+    }
+    
+    #sm:hover {
+        color: #228B22;
+    }
+    
+    #md:hover {
+        color: #228B22;
+    }
+    
+    #lg:hover {
+        color: #228B22;
+    }
+    
+    #xl:hover {
+        color: #228B22;
+    }
+    
+    .pizza-img {
+        width: 100%;
+    }
+    
+    .header1 {
+        text-align: center;
+    }
+    
+    .para1 {
+        text-align: center;
+    }
+    
+    #col-1 {
+        text-align: center;
+    }
+    
+    #col-2 {
+        text-align: center;
+    }
+    
+    #col-3 {
+        text-align: center;
+    }
