@@ -50,14 +50,26 @@
         text-align: center;
     }
     
-    #col-1 {
-        text-align: center;
+    .menu {}
+    
+    #dosha {
+        justify-content: space-around;
     }
     
-    #col-2 {
-        text-align: center;
+    .pizza1 {
+        border-radius: 10px;
+        margin: 2px;
+        width: 300px;
     }
     
-    #col-3 {
-        text-align: center;
+    .pizza5 {
+        border-radius: 10px;
+        margin: 2px;
+        width: 300px;
+    }
+    
+    .pizza4 {
+        border-radius: 10px;
+        margin: 2px;
+        width: 300px;
     }
