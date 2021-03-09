@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pastore Pizzaria</title>
+    <title>Teejay's Pizzaria</title>
     <!--Pizza favicon-->
     <link rel="icon" href="images/favicon-16x16.png">
     <!--Bootstrap CDN-->
@@ -20,13 +20,11 @@
 <body>
     <!--Navbar-->
     <header class="header">
-
         <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: black;">
-            <a class="navbar-brand" href="#" id="brand">Pastore</a>
+            <a class="navbar-brand" href="#" id="brand">Teejay's Pizzaria</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
-
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
@@ -43,7 +41,6 @@
                             <a class="dropdown-item" href="#" id="sm">Small</a>
                             <a class="dropdown-item" href="#" id="md">Medium</a>
                             <a class="dropdown-item" href="#" id="lg">Large</a>
-
                         </div>
                     </li>
                     <li class="nav-item">
@@ -59,7 +56,7 @@
 
     <!--Menu section-->
     <img src="images/background.jpg" alt="img" class="pizza-img">
-    <h1 class="header1">Welcome to Pastore Pizzaria</h1>
+    <h1 class="header1">Welcome to Teejay's Pizzaria</h1>
     <p class="para1">Menu</p>
     <div class="menu">
         <div class="container">
@@ -88,6 +85,8 @@
             <div class="col-sm-2"></div>
             <div class="col-sm-8 order-overlay text-center">
                 <form class="col-sm-6 offset-sm-3 text-center" id="pizzaForm">
+
+                    <!--pizza flavor-->
                     <label for="flavor">Choose your favorite flavor</label>
                     <select class="custom-select custom-select-md mb-3" id="pizzaFlavor" required>
                         <option value="cheese">Cheese Pizza</option>
@@ -98,6 +97,7 @@
                         <option value="hawaiian">Hawaiian Pizza</option>
                     </select>
 
+                    <!--pizza size-->
                     <label for="size">Choose your preferred size</label>
                     <select class="custom-select custom-select-md mb-3" id="pizzaSize" required>
                         <option value="small">Small</option>
@@ -105,6 +105,7 @@
                         <option value="large">Large</option>
                     </select>
 
+                    <!--pizza crust-->
                     <label for="crust">Choose your preferred crust</label>
                     <select class="custom-select custom-select-md mb-3" id="pizzaCrust" required>
                     <option value="neapolitan">Neapolitan Crust for Ksh. 100</option>
@@ -113,6 +114,7 @@
                     <option value="flatbread">Flatbread Crust for Ksh. 250</option>
                     </select>
 
+                    <!--pizza toppings-->
                     <label for="toppings">Choose your favorite toppings</label>
                     <select class="custom-select custom-select-md mb-3" id="pizzaToppings" required>
                     <option value="0">Toppings </option>
@@ -120,19 +122,16 @@
                     <option value="olives">Olives for Ksh. 100</option>
                     <option value="capers">Capers for Ksh. 100</option>
                     <option value="sausage">Sausage for Ksh. 100</option>
+                    </select>
 
-                </select>
-
+                    <!--number of pizzas-->
                     <label for="pizzas">Number of pizzas</label>
                     <input type="number" class="form-control" id="pizzaNumber" placeholder="Number of pizzas" value="" required>
                     <button type="submit" class="btn btn-success checkout" id="checkout">
                         Checkout
                     </button>
                 </form><br>
-
-
             </div>
-
         </div>
     </div><br><br>
 
@@ -144,21 +143,6 @@
         </ol>
         <h3 class="text-center">Your total order<span id="total"></span></h3>
     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
