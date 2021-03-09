@@ -87,9 +87,9 @@
         <div class="form-group row">
             <div class="col-sm-2"></div>
             <div class="col-sm-8 order-overlay text-center">
-                <form class="col-sm-6 offset-sm-3 text-center">
+                <form class="col-sm-6 offset-sm-3 text-center" id="pizzaForm">
                     <label for="flavor">Choose your favorite flavor</label>
-                    <select class="custom-select custom-select-md mb-3" id="flavor" required>
+                    <select class="custom-select custom-select-md mb-3" id="pizzaFlavor" required>
                         <option value="cheese">Cheese Pizza</option>
                         <option value="pepperoni">Pepperoni Pizza</option>
                         <option value="meat">Meat Pizza</option>
@@ -97,49 +97,52 @@
                         <option value="bbq">BBQ Pizza</option>
                         <option value="hawaiian">Hawaiian Pizza</option>
                     </select>
+
                     <label for="size">Choose your preferred size</label>
-                    <select class="custom-select custom-select-md mb-3" id="size" required>
+                    <select class="custom-select custom-select-md mb-3" id="pizzaSize" required>
                         <option value="small">Small</option>
                         <option value="medium">Medium</option>
                         <option value="large">Large</option>
                     </select>
+
                     <label for="crust">Choose your preferred crust</label>
-                    <select class="custom-select custom-select-md mb-3" id="crust" required>
+                    <select class="custom-select custom-select-md mb-3" id="pizzaCrust" required>
                     <option value="neapolitan">Neapolitan Crust for Ksh. 100</option>
                     <option value="sicilian">Sicilian Crust for Ksh. 150</option>
                     <option value="thin">Thin Crust for Ksh. 200</option>
                     <option value="flatbread">Flatbread Crust for Ksh. 250</option>
-                </select>
+                    </select>
+
                     <label for="toppings">Choose your favorite toppings</label>
-                    <select class="custom-select custom-select-md mb-3" id="toppings" required>
+                    <select class="custom-select custom-select-md mb-3" id="pizzaToppings" required>
+                    <option value="0">Toppings </option>
                     <option value="broccoli">Broccoli for Ksh. 100</option>
                     <option value="olives">Olives for Ksh. 100</option>
                     <option value="capers">Capers for Ksh. 100</option>
                     <option value="sausage">Sausage for Ksh. 100</option>
-                </select>
-                    <label for="pizzas">Number of pizzas</label>
-                    <input type="number" class="form-control" id="number" placeholder="Number of pizzas" min="1" required>
-                </form><br>
 
-                <!--Checkout-->
-                <a href="#summary">
+                </select>
+
+                    <label for="pizzas">Number of pizzas</label>
+                    <input type="number" class="form-control" id="pizzaNumber" placeholder="Number of pizzas" value="" required>
                     <button type="submit" class="btn btn-success checkout" id="checkout">
                         Checkout
                     </button>
-                </a>
+                </form><br>
+
 
             </div>
-            <div class="col-sm-2"></div>
+
         </div>
     </div><br><br>
 
     <!--Tab-->
-    <div class="order-summary" id="sum-order">
+    <div class="order-summary" id="sumOrder">
         <h1 class="text-center" id="summary">Order Summary</h1>
         <h2 class="text-center summary">Your order is as follows</h2>
-        <ol id="list" class="text-center sum">
-
+        <ol id="List" class="text-center sum">
         </ol>
+        <h3 class="text-center">Your total order<span id="total"></span></h3>
     </div>
 
 
