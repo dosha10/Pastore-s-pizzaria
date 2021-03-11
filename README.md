@@ -1,4 +1,4 @@
-# Teejay's Pizzaria
+# Pastore Pizzaria
 
 ## Author
 
